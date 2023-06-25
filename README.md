@@ -1,3 +1,7 @@
+# Overview
+
+This repository is meant to show how to use various AI tools ([OpenAI](https://openai.com/), [LangChain](https://python.langchain.com/docs/get_started/introduction.html), etc.) to integrate AI into custom applications. It is broken down into various examples used to illustrate different common use-cases for AI within custom applications.
+
 # Prerequisites
 
 - Python 3 is installed on your machine. Recommendation: use [pyenv](https://github.com/pyenv/pyenv) to manage your Python installation.
