@@ -6,10 +6,14 @@ build-backend = "setuptools.build_meta"
 py-modules = []
 
 [project]
+dependencies = [
+  "openai>=0.27.8",
+  "langchain>=0.0.214",
+  "argparse-prompt>=0.0.5",
+]
 name = "ai-examples"
 version = "0.0.1"
 requires-python = ">=3.7"
-dependencies = ["langchain>=0.0.214"]
 
 [project.optional-dependencies]
 dev = ["black>=23.3.0", "python-dotenv>=1.0.0"]

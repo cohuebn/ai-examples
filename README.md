@@ -21,8 +21,9 @@ This section describes how to install all required dependencies for this applica
 2. Activate that virtual environment: `. .venv/bin/activate`
 3. Ensure the build tools are installed and up-to-date: `pip install --upgrade build pip`
 4. Install dependencies: `pip install .`. If you also want dev dependencies (linting, dotenv loading, etc.) also run `python -m pip install '.[dev]'`
+5. You also should setup your .env file with any relevant API keys (e.g. OpenAI key).
 
-## Running the main script
+## Running an example script
 
 1. If it isn't already, ensure you've activated your venv within the terminal session: `. .venv/bin/activate`
-2. Run the main entrypoint: `python .`
+2. Run the example module. This corresponds to the directory in the examples folder: `python -m examples/<folder_name>`
