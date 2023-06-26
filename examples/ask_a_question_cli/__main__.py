@@ -18,7 +18,7 @@ def get_cli():
 load_dotenv()
 user_input = get_cli().parse_args()
 
-language_learning_model = OpenAI(temperature=user_input.randomness)
-answer = language_learning_model.predict(user_input.question)
+large_language_model = OpenAI(temperature=user_input.randomness)
+answer = large_language_model.predict(user_input.question)
 
 print(f"Answer from AI: {answer}")
