@@ -40,5 +40,5 @@ collateral_factor_predictor = create_pandas_dataframe_agent(
     llm=llm,
     df=[collateral_factor_data["collateral_factors"], collateral_factor_data["prices"]],
 )
-question = f"You are a crypto lending pool. Given historical collateral factors and prices, what should the collateral factor for {token} be on {target_time}?"
+question = f"You are a crypto lending pool. What should the collateral factor for {token} be on {target_time}?"
 print(collateral_factor_predictor.run(question))
