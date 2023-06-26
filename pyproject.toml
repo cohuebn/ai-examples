@@ -10,6 +10,11 @@ dependencies = [
   "openai>=0.27.8",
   "langchain>=0.0.214",
   "argparse-prompt>=0.0.5",
+  "psycopg2>=2.9.6",
+  "python-json-logger>=2.0.7",
+  "python-dateutil>=2.8.2",
+  "pandas>=2.0.2",
+  "tabulate>=0.9.0",
 ]
 name = "ai-examples"
 version = "0.0.1"
