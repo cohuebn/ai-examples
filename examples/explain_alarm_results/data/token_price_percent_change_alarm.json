@@ -1,0 +1,98 @@
+{
+  "status": "success",
+  "data": {
+    "name": "Token Price Percentage Change Multiline",
+    "definition": {
+      "startTime": "now - 60 minutes",
+      "endTime": "now",
+      "context": {},
+      "data": {
+        "priceValues": {
+          "executeSql": [
+            "with inRangePrices as (\n  select token, last(price, quote_time) price, time_bucket('{{interval}}'::interval, quote_time) quote_time\n  from token_prices\n  where quote_time between {{sqlStartTime}} and {{sqlEndTime}}\n  group by token, time_bucket('{{interval}}'::interval, quote_time)\n),\nfirstOutOfRangePrice as (\n  select token, last(price, quote_time) as price, max(quote_time) as quote_time\n  from token_prices\n  where quote_time < ({{sqlStartTime}})\n  group by token\n),\nallPrices as (\n  select token, price, quote_time\n  from inRangePrices\n  union\n  select token, price, quote_time\n  from firstOutOfRangePrice\n  order by quote_time\n),\nwithPreviousPrice as (\n  select\n    token, price currentPrice,\n    lag(price, 1) over(partition by token) previousPrice, quote_time\n  from allPrices\n)\nselect\n  case\n    when coalesce(previousPrice, 0) = 0 then 0\n    else round((currentPrice - previousPrice) / previousPrice * 100, 3)\n  end as val,\n  quote_time as time,\n  token as metric_name\nfrom withPreviousPrice\nwhere quote_time between {{sqlStartTime}} and {{sqlEndTime}}\norder by time desc;",
+            {
+              "var": []
+            }
+          ]
+        }
+      },
+      "variables": {},
+      "evaluation": {
+        "<=": [
+          {
+            "convertInt": [
+              {
+                "var": "datapoint.val"
+              }
+            ]
+          },
+          {
+            "convertInt": [
+              {
+                "var": "threshold"
+              }
+            ]
+          }
+        ]
+      },
+      "notification": {
+        "notifyOn": "never"
+      },
+      "datapoint": {
+        "var": "data.priceValues.latest"
+      },
+      "unit": "%",
+      "interval": "60 minutes"
+    },
+    "overrideDefinitions": {
+      "name": {
+        "fieldToOverride": "name",
+        "label": "Name",
+        "required": false,
+        "type": "string",
+        "sortOrder": 1,
+        "defaultValue": {
+          "raw": "Token Price Percentage Change Multiline",
+          "transformed": "Token Price Percentage Change Multiline"
+        },
+        "currentValue": {
+          "raw": "Token Price Percentage Change Multiline",
+          "transformed": "Token Price Percentage Change Multiline"
+        },
+        "multiline": false
+      },
+      "description": {
+        "fieldToOverride": "description",
+        "label": "Description",
+        "required": false,
+        "type": "string",
+        "multiline": true,
+        "sortOrder": 2,
+        "defaultValue": {
+          "raw": "See percentage changes in price of multiple tokens over time.",
+          "transformed": "See percentage changes in price of multiple tokens over time."
+        },
+        "currentValue": {
+          "raw": "See percentage changes in price of multiple tokens over time.",
+          "transformed": "See percentage changes in price of multiple tokens over time."
+        }
+      }
+    },
+    "tags": {
+      "hidden_multiLine": "true",
+      "category": "Oracle Token tracking",
+      "entityType": "Oracle",
+      "hidden_alwaysDisabled": "true"
+    },
+    "createdDate": "2023-09-06T14:26:00.846Z",
+    "disabled": true,
+    "owner": "c5f5b6c0-1f33-4cfd-958b-171110b910d4",
+    "sort": "alarm",
+    "description": "See percentage changes in price of multiple tokens over time.",
+    "updatedDate": "2023-09-06T14:26:00.846Z",
+    "alarmId": "39c513a8-c0b4-4b00-ae43-059f2d922bfd",
+    "preventEntityOverride": true,
+    "extendedAlarmId": "68597492-64e4-4312-8cb1-d75e3f50561d",
+    "chain": "avalanche"
+  }
+}

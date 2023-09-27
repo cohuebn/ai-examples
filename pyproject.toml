@@ -15,6 +15,7 @@ dependencies = [
   "python-dateutil>=2.8.2",
   "pandas>=2.0.2",
   "tabulate>=0.9.0",
+  "featureform>=1.9.5",
 ]
 name = "ai-examples"
 version = "0.0.1"

@@ -1,0 +1,488 @@
+{
+  "data": [
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x0ae7430646e0a38e004aebb2f80415452d0e9536",
+      "time": "2023-09-26T15:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "4.0000000000000000",
+      "metricName": "0x81d70ef88511d5c6552249f9bde184a8cf4ff1ce",
+      "time": "2023-09-26T15:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "1.00000000000000000000",
+      "metricName": "0xa7544c409d772944017bb95b99484b6e0d7b6388",
+      "time": "2023-09-26T15:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x0ae7430646e0a38e004aebb2f80415452d0e9536",
+      "time": "2023-09-26T17:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x81d70ef88511d5c6552249f9bde184a8cf4ff1ce",
+      "time": "2023-09-26T17:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x0ae7430646e0a38e004aebb2f80415452d0e9536",
+      "time": "2023-09-26T18:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x81d70ef88511d5c6552249f9bde184a8cf4ff1ce",
+      "time": "2023-09-26T18:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x9edeb6796b0dcb0a53dc74e5add27ba9cd02ac7d",
+      "time": "2023-09-26T18:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "3.0000000000000000",
+      "metricName": "0x0165c8bcf181ff4083d0ca502ed87265c833a302",
+      "time": "2023-09-26T20:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x0ae7430646e0a38e004aebb2f80415452d0e9536",
+      "time": "2023-09-26T20:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "4.0000000000000000",
+      "metricName": "0x81d70ef88511d5c6552249f9bde184a8cf4ff1ce",
+      "time": "2023-09-26T20:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0xa7544c409d772944017bb95b99484b6e0d7b6388",
+      "time": "2023-09-26T20:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0xde6024872d45032b9c62c2e015d2bcff2922b337",
+      "time": "2023-09-26T20:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "3.0000000000000000",
+      "metricName": "0x11c3d91259b1c2bd804344355c6a255001f7ba1e",
+      "time": "2023-09-26T21:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x214a37a79b5958150aab2ea2c12266dd5a6c7dec",
+      "time": "2023-09-26T21:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "20.0000000000000000",
+      "metricName": "0x3a99e66d7309d3ccda9e5c1bcabce876865bca83",
+      "time": "2023-09-26T21:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "8.0000000000000000",
+      "metricName": "0x72e4add12d003dfd48f26624c83e851fe3a46e4d",
+      "time": "2023-09-26T21:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "14.0000000000000000",
+      "metricName": "0x81d70ef88511d5c6552249f9bde184a8cf4ff1ce",
+      "time": "2023-09-26T21:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "13.0000000000000000",
+      "metricName": "0xa7544c409d772944017bb95b99484b6e0d7b6388",
+      "time": "2023-09-26T21:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "4.0000000000000000",
+      "metricName": "0xde6024872d45032b9c62c2e015d2bcff2922b337",
+      "time": "2023-09-26T21:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x214a37a79b5958150aab2ea2c12266dd5a6c7dec",
+      "time": "2023-09-26T22:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x0ae7430646e0a38e004aebb2f80415452d0e9536",
+      "time": "2023-09-26T23:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x0ae7430646e0a38e004aebb2f80415452d0e9536",
+      "time": "2023-09-27T00:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x0ae7430646e0a38e004aebb2f80415452d0e9536",
+      "time": "2023-09-27T01:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x0ae7430646e0a38e004aebb2f80415452d0e9536",
+      "time": "2023-09-27T02:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "3.0000000000000000",
+      "metricName": "0x11c3d91259b1c2bd804344355c6a255001f7ba1e",
+      "time": "2023-09-27T03:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "4.0000000000000000",
+      "metricName": "0x81d70ef88511d5c6552249f9bde184a8cf4ff1ce",
+      "time": "2023-09-27T03:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x0ae7430646e0a38e004aebb2f80415452d0e9536",
+      "time": "2023-09-27T04:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "12.0000000000000000",
+      "metricName": "0x81d70ef88511d5c6552249f9bde184a8cf4ff1ce",
+      "time": "2023-09-27T04:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "4.0000000000000000",
+      "metricName": "0x81d70ef88511d5c6552249f9bde184a8cf4ff1ce",
+      "time": "2023-09-27T05:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x0ae7430646e0a38e004aebb2f80415452d0e9536",
+      "time": "2023-09-27T06:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "4.0000000000000000",
+      "metricName": "0x9edeb6796b0dcb0a53dc74e5add27ba9cd02ac7d",
+      "time": "2023-09-27T06:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "1.00000000000000000000",
+      "metricName": "0x09a37f94219f56758c66a64da38bbe78dade92d8",
+      "time": "2023-09-27T07:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x0ae7430646e0a38e004aebb2f80415452d0e9536",
+      "time": "2023-09-27T07:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "3.0000000000000000",
+      "metricName": "0x11c3d91259b1c2bd804344355c6a255001f7ba1e",
+      "time": "2023-09-27T07:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "1.00000000000000000000",
+      "metricName": "0x833b6252ab67de11cb777f571c7686bb4cd055fc",
+      "time": "2023-09-27T07:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "4.0000000000000000",
+      "metricName": "0x81d70ef88511d5c6552249f9bde184a8cf4ff1ce",
+      "time": "2023-09-27T08:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x0ae7430646e0a38e004aebb2f80415452d0e9536",
+      "time": "2023-09-27T09:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "6.0000000000000000",
+      "metricName": "0x11c3d91259b1c2bd804344355c6a255001f7ba1e",
+      "time": "2023-09-27T09:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x214a37a79b5958150aab2ea2c12266dd5a6c7dec",
+      "time": "2023-09-27T09:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0xa7544c409d772944017bb95b99484b6e0d7b6388",
+      "time": "2023-09-27T09:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0xc5c777c835bb1237ad1831d1ac75910c06888ba0",
+      "time": "2023-09-27T09:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x0ae7430646e0a38e004aebb2f80415452d0e9536",
+      "time": "2023-09-27T11:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "4.0000000000000000",
+      "metricName": "0x11c3d91259b1c2bd804344355c6a255001f7ba1e",
+      "time": "2023-09-27T11:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x3a99e66d7309d3ccda9e5c1bcabce876865bca83",
+      "time": "2023-09-27T11:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "3.0000000000000000",
+      "metricName": "0x81d70ef88511d5c6552249f9bde184a8cf4ff1ce",
+      "time": "2023-09-27T11:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "3.0000000000000000",
+      "metricName": "0xf90107890b640387ec3b0474f0c61674aebcb510",
+      "time": "2023-09-27T11:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "7.0000000000000000",
+      "metricName": "0x11c3d91259b1c2bd804344355c6a255001f7ba1e",
+      "time": "2023-09-27T12:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "1.00000000000000000000",
+      "metricName": "0x8e00102d96b34bef29f3e1e0e5dbd0a611cac312",
+      "time": "2023-09-27T12:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0xc5c777c835bb1237ad1831d1ac75910c06888ba0",
+      "time": "2023-09-27T12:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0xf90107890b640387ec3b0474f0c61674aebcb510",
+      "time": "2023-09-27T12:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x0ae7430646e0a38e004aebb2f80415452d0e9536",
+      "time": "2023-09-27T13:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x3a99e66d7309d3ccda9e5c1bcabce876865bca83",
+      "time": "2023-09-27T13:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "6.0000000000000000",
+      "metricName": "0x81d70ef88511d5c6552249f9bde184a8cf4ff1ce",
+      "time": "2023-09-27T13:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x8e00102d96b34bef29f3e1e0e5dbd0a611cac312",
+      "time": "2023-09-27T13:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x9edeb6796b0dcb0a53dc74e5add27ba9cd02ac7d",
+      "time": "2023-09-27T13:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "1.00000000000000000000",
+      "metricName": "0xa7544c409d772944017bb95b99484b6e0d7b6388",
+      "time": "2023-09-27T13:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "4.0000000000000000",
+      "metricName": "0xf90107890b640387ec3b0474f0c61674aebcb510",
+      "time": "2023-09-27T13:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "4.0000000000000000",
+      "metricName": "0x214a37a79b5958150aab2ea2c12266dd5a6c7dec",
+      "time": "2023-09-27T14:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x229ba1db81c157426766ebc1135c4853f0af344f",
+      "time": "2023-09-27T14:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "17.0000000000000000",
+      "metricName": "0x3a99e66d7309d3ccda9e5c1bcabce876865bca83",
+      "time": "2023-09-27T14:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "49.0000000000000000",
+      "metricName": "0x81d70ef88511d5c6552249f9bde184a8cf4ff1ce",
+      "time": "2023-09-27T14:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x8e00102d96b34bef29f3e1e0e5dbd0a611cac312",
+      "time": "2023-09-27T14:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "17.0000000000000000",
+      "metricName": "0xa7544c409d772944017bb95b99484b6e0d7b6388",
+      "time": "2023-09-27T14:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "12.0000000000000000",
+      "metricName": "0xe4f1bdb10829441a68da61d743c391cdfe5f001d",
+      "time": "2023-09-27T14:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "8.0000000000000000",
+      "metricName": "0xf90107890b640387ec3b0474f0c61674aebcb510",
+      "time": "2023-09-27T14:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "3.0000000000000000",
+      "metricName": "0x11c3d91259b1c2bd804344355c6a255001f7ba1e",
+      "time": "2023-09-27T15:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "8.0000000000000000",
+      "metricName": "0x81d70ef88511d5c6552249f9bde184a8cf4ff1ce",
+      "time": "2023-09-27T15:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    },
+    {
+      "val": "2.0000000000000000",
+      "metricName": "0x9edeb6796b0dcb0a53dc74e5add27ba9cd02ac7d",
+      "time": "2023-09-27T15:00:00.000Z",
+      "alarmId": "4eb6f95b-25a1-4790-9ded-af4b728832d3",
+      "network": "mainnet"
+    }
+  ],
+  "status": "success"
+}

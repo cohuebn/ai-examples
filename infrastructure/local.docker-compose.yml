@@ -1,0 +1,23 @@
+version: "3.8"
+services:
+  mongodb:
+    image: mongo:6-jammy
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./.data/inference:/data/db
+  postgres:
+    image: postgres:13-bullseye
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./.data/offline:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: feed-the-rob0toverLoardz
+  featureform:
+    image: featureformcom/featureform:0.9.0
+    ports:
+      - "7878:7878"
+      - "8002:80"
+    environment:
+      - ETCD_ARCH="ETCD_UNSUPPORTED_ARCH=arm64"

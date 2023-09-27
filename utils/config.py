@@ -1,5 +1,7 @@
 from os import getenv
 
+from database.postgres_connection_settings import PostgresConnectionSettings
+
 
 def get_required(name: str) -> str:
     if env_value := getenv(name):
@@ -9,28 +11,26 @@ def get_required(name: str) -> str:
 
 class Config:
     @staticmethod
-    def db_host() -> str:
-        return get_required("METRICS_DB_HOST")
+    def metrics_db() -> PostgresConnectionSettings:
+        return PostgresConnectionSettings(
+            get_required("METRICS_DB_HOST"),
+            get_required("METRICS_DB_PORT"),
+            getenv("METRICS_DB_NAME", "tsdb"),
+            get_required("METRICS_DB_USER"),
+            get_required("METRICS_DB_PASSWORD"),
+            getenv("METRICS_DB_SSL_MODE", "allow"),
+        )
 
     @staticmethod
-    def db_port() -> str:
-        return get_required("METRICS_DB_PORT")
-
-    @staticmethod
-    def db_name() -> str:
-        return getenv("METRICS_DB_NAME", "tsdb")
-
-    @staticmethod
-    def db_user() -> str:
-        return get_required("METRICS_DB_USER")
-
-    @staticmethod
-    def db_password() -> str:
-        return get_required("METRICS_DB_PASSWORD")
-
-    @staticmethod
-    def db_ssl_mode() -> str:
-        return getenv("METRICS_DB_SSL_MODE", "allow")
+    def features_db() -> PostgresConnectionSettings:
+        return PostgresConnectionSettings(
+            get_required("FEATURES_DB_HOST"),
+            get_required("FEATURES_DB_PORT"),
+            getenv("FEATURES_DB_NAME", "tsdb"),
+            get_required("FEATURES_DB_USER"),
+            get_required("FEATURES_DB_PASSWORD"),
+            getenv("FEATURES_DB_SSL_MODE", "allow"),
+        )
 
     @staticmethod
     def log_level() -> str:

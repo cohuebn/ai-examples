@@ -23,7 +23,18 @@ This section describes how to install all required dependencies for this applica
 4. Install dependencies: `pip install .`. If you also want dev dependencies (linting, dotenv loading, etc.) also run `python -m pip install '.[dev]'`
 5. You also should setup your .env file with any relevant API keys (e.g. OpenAI key).
 
-## Running an example script
+## Running an example Python module
+
+Some modules are Python only (no other infrastructure required). These can be run directly via
+Python commands if desired. To run them take these steps:
 
 1. If it isn't already, ensure you've activated your venv within the terminal session: `. .venv/bin/activate`
 2. Run the example module. This corresponds to the directory in the examples folder: `python -m examples/<folder_name>`
+
+## Running an example requiring additional infrastructure
+
+Some modules require additional infrastructure along with Python scripts. The additional infrastructure is created in Docker. To run, take these steps:
+
+1. Start up the Docker containers: `./infrastructure/local.start.sh`
+2. [Run the Python example](#running-an-example-python-module)
+3. Stop the Docker containers: `./infrastructure/local.stop.sh`
