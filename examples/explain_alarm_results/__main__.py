@@ -44,9 +44,9 @@ an interesting event occurred at that point-in-time.
 2. A timeseries of results: This is the actual blockchain data that was found using the "data" property on the alarm definition.
 The alarm definition is a custom DSL that allows executing SQL queries
 
-Your task is to translate the timeseries results into easy-to-understand English that describes two things:
-1. Any interesting events that occurred in the result set
-2. Any trends that are evident from the timeseries
+Your task is to:
+1. Use the rule definition to understand what the rule is representing in plain English.
+2. Translate the timeseries results into something a non-technical person could use to understand what happened.
 
 Rule definition:
 {rule_definition}
